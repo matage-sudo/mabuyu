@@ -1,3 +1,27 @@
+/* Apply green background to the entire page */
+body {
+    background-color: #28a745;  /* Green color */
+    color: white;               /* Set text color to white for better contrast */
+    font-family: Arial, sans-serif; /* Optional: Set a clean font */
+    margin: 0;
+    padding: 0;
+}
+
+/* For other elements like header, footer, and sections */
+header, footer, .products {
+    background-color: #28a745;  /* Green background */
+}
+
+/* Customize sections with a different shade of green */
+section {
+    background-color: #4CAF50;  /* Slightly darker green for sections */
+    color: white;
+    padding: 20px;
+}
+
+/* Add more styles for specific elements if necessary */
+
+
 /* FEEDBACK FORM STYLING */
 .feedback {
     background: #ffe0cc;
@@ -91,4 +115,22 @@
 
 .product-card a:hover {
     background-color: #5aaf6a;
+}
+/* Style for the order button */
+.btn.small {
+    background-color: #28a745;  /* Green color for the button */
+    color: white;               /* White text */
+    padding: 12px 20px;         /* Larger padding to make the button bigger */
+    font-size: 18px;            /* Bigger text size */
+    border: none;               /* Remove default border */
+    border-radius: 5px;         /* Rounded corners */
+    text-align: center;         /* Center text inside the button */
+    display: inline-block;      /* Make it behave like an inline element */
+    text-decoration: none;      /* Remove underline if it's a link */
+    transition: background-color 0.3s ease;  /* Smooth transition effect */
+}
+
+.btn.small:hover {
+    background-color: #218838;  /* Darker green when the button is hovered */
+    cursor: pointer;           /* Change cursor to pointer on hover */
 }
